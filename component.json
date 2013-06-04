@@ -1,0 +1,14 @@
+{
+  "name": "contenteditable",
+  "repo": "notablemind/contenteditable",
+  "description": "A contenteditable directive",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
