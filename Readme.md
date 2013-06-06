@@ -1,5 +1,6 @@
-
 # contenteditable
+
+[![Build Status](https://travis-ci.org/notablemind/contenteditable.png?branch=master)](https://travis-ci.org/notablemind/contenteditable)
 
   A contenteditable directive
 
