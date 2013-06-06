@@ -9,7 +9,11 @@
 
 ## API
 
-   
+Must be used in conjunction with ng-model.   
+
+Example:
+
+    <div ng-model="text" contenteditable>My Text</div>
 
 ## License
 
