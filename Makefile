@@ -28,7 +28,7 @@ test: build
 testci: build
 	@testem ci -f test/testem.json -l PhantomJS
 
-testci-e2e: build
-	@mocha-phantomjs test/index.html
+test-karma: build
+	@karma start test/karma.conf.js
 
 .PHONY: clean testem test testci
