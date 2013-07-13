@@ -10,9 +10,6 @@ clean:
 
 .PHONY: clean
 
-testem: build
-	@testem -f test/testem.json -l Chrome
-
 # open browser correctly in mac or linux
 UNAME_S := $(shell uname -s)
 ifeq ($(UNAME_S),Linux)
@@ -26,6 +23,9 @@ test: build
 	@${open} test/index.html
 
 testci: build
+	@mocha-phantomjs test/index.html
+
+testem: build
 	@testem ci -f test/testem.json -l PhantomJS
 
 test-karma: build
