@@ -1,0 +1,2 @@
+{"prepare":"npm install -g component\ncomponent install --dev\ncomponent build --dev\nnpm install -g testem",
+"test": "make testci"}
