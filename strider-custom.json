@@ -1,2 +1,2 @@
-{"prepare":"npm install -g component\ncomponent install --dev\ncomponent build --dev\nnpm install -g mocha-phantomjs",
+{"prepare":"npm install -g component\ncomponent install --dev\ncomponent build --dev\nnpm install -g phantomjs\nnpm install -g mocha-phantomjs",
 "test": "make testci"}
