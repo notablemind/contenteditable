@@ -2,6 +2,5 @@ prepare:
   - npm install -g component
   - component install --dev
   - component build --dev
-  - npm install -g phantomjs
   - npm install -g mocha-phantomjs
 test: make testci
