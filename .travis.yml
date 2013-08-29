@@ -3,7 +3,7 @@ node_js:
   - 0.11
 
 before_script:
-  - npm install -g component
+  - npm install -g component mocha-phantomjs
   - component install --dev
   - component build --dev
   - npm install -g testem
