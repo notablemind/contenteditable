@@ -6,7 +6,7 @@
 
 var angular = require('angularjs');
 
-angular.module('contenteditable', [])
+module.exports = angular.module('contenteditable', [])
   .directive('contenteditable', function() {
     return {
       restrict: 'A',
